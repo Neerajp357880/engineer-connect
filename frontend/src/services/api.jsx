@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://engineer-connect-ekqx.onrender.com",
+  baseURL:  "https://engineer-connect-ekqx.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
